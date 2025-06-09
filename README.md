@@ -25,19 +25,25 @@ The Pokémon Box technology needs upgrading, the code provided does not limit th
 
 
 Start of menu program:
+
 ![screenshot shows preloading, welcome, initial box contents, and main menu](https://i.imgur.com/6lmMVtu.png)
 
 Invalid integer choice error handling:
+
 ![screenshot handling "woops" entered instead of integer](https://i.imgur.com/cuq1gGy.png)
 
 Invalid Pokémon information error handling (should work similarly for illegal name or type):
+
 ![screenshot handling illegal Pokémon type](https://i.imgur.com/lQIgHv9.png)
 
 Invalid add to PokemonBox error handling (already exists):
+
 ![screenshot handling Pokémon input that's already in box](https://i.imgur.com/OwH1pgB.png)
 
 Valid Pokémon added successfully:
+
 ![screenshot of valid (unique) pokemon added to box](https://i.imgur.com/ZaKba2H.png)
 
 Exiting program option:
+
 ![screenshot of exit program option entered](https://i.imgur.com/fLQbFtd.png)

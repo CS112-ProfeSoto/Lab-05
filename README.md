@@ -25,8 +25,30 @@ The Pokémon Box technology needs upgrading, the code provided does not limit th
 
 
 Start of menu program:
+```
+Preloading Pokemon Box...
+...Done!
 
-![screenshot shows preloading, welcome, initial box contents, and main menu](https://i.imgur.com/6lmMVtu.png)
+---------------------------
+| Welcome to Pokemon Box! |
+---------------------------
+
+This box has 6 Pokemon, which are:
+	01. Pikachu [Electric]
+	02. Bulbasaur [Grass - Poison]
+	03. Charmeleon [Fire]
+	04. Squirtle [Water]
+	05. Butterfree [Bug - Flying]
+	06. Pidgeotto [Normal - Flying]
+
+MAIN MENU
+What would you like to do?
+	1) Add a New Pokemon 
+	2) List All Pokemon 
+	3) Exit Program 
+
+Enter choice number>
+```
 
 Invalid integer choice error handling:
 

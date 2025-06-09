@@ -52,11 +52,27 @@ Enter choice number>
 
 Invalid integer choice error handling:
 
-![screenshot handling "woops" entered instead of integer](https://i.imgur.com/cuq1gGy.png)
+```
+MAIN MENU
+What would you like to do?
+	1) Add a New Pokemon 
+	2) List All Pokemon 
+	3) Exit Program 
+
+Enter choice number> whoops
+Invalid choice, please pick a valid option as an integer.
+```
 
 Invalid Pokémon information error handling (should work similarly for illegal name or type):
-
-![screenshot handling illegal Pokémon type](https://i.imgur.com/lQIgHv9.png)
+```
+Enter Pokemon Info to be added:
+Enter Pokemon Name> Scyther
+Enter Pokemon Type #1> Buggy
+Enter Pokemon Type #2 (none if no second type)> none
+Invalid name or types for Pokemon entered. Please make sure types are valid (or enter 'none' for type 2).
+Here is a list of valid types:
+[Normal, Fire, Fighting, Water, Grass, Poison, Electric, ground, Psychic, Rock, Ice, Bug, Dragon, Ghost, Dark, Steel, Fairy]
+```
 
 Invalid add to PokemonBox error handling (already exists):
 

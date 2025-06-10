@@ -75,13 +75,52 @@ Here is a list of valid types:
 ```
 
 Invalid add to PokemonBox error handling (already exists):
-
-![screenshot handling Pokémon input that's already in box](https://i.imgur.com/OwH1pgB.png)
+```
+Enter Pokemon Info to be added:
+Enter Pokemon Name> Pikachu
+Enter Pokemon Type #1> Electric
+Enter Pokemon Type #2 (none if no second type)> none
+ERROR! Pokemon already exists in pokebox!
+Please remember our regions sustainability efforts in reducing habitat loss and environmental impacts.
+```
 
 Valid Pokémon added successfully:
+```
+Enter Pokemon Info to be added:
+Enter Pokemon Name> Mew
+Enter Pokemon Type #1> Psychic
+Enter Pokemon Type #2 (none if no second type)> none
+Mew added!
+```
 
-![screenshot of valid (unique) pokemon added to box](https://i.imgur.com/ZaKba2H.png)
+List Pokémon option:
+```
+MAIN MENU
+What would you like to do?
+	1) Add a New Pokemon 
+	2) List All Pokemon 
+	3) Exit Program 
+
+Enter choice number> 2
+
+This box has 7 Pokemon, which are:
+	01. Pikachu [Electric]
+	02. Bulbasaur [Grass - Poison]
+	03. Charmeleon [Fire]
+	04. Squirtle [Water]
+	05. Butterfree [Bug - Flying]
+	06. Pidgeotto [Normal - Flying]
+	07. Mew [Psychic]
+```
 
 Exiting program option:
+```
+MAIN MENU
+What would you like to do?
+	1) Add a New Pokemon 
+	2) List All Pokemon 
+	3) Exit Program 
 
-![screenshot of exit program option entered](https://i.imgur.com/fLQbFtd.png)
+Enter choice number> 3
+Thank you for using the Pokemon Box program!
+```
